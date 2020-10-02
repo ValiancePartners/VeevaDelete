@@ -1,0 +1,10 @@
+﻿itemtype,objectname,majorversion,minorversion,batched,cascade,urn
+Document,,,,,y,
+Document,,1,2,,y,
+Binder,,,,,y,
+Binder,,1,3,,y,
+Binder,,1,4,y,,
+Object,,,,y,,
+Object,a,,,,,
+Object,a,,,y,y,
+Object,a,1,3,y,,

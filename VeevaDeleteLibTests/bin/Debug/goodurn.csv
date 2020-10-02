@@ -1,0 +1,11 @@
+﻿itemtype,objectname,majorversion,minorversion,batched,cascade,urn
+Object,a,,,,y,vobjects/a/{0}/actions/cascadedelete
+Object,b,,,,y,vobjects/b/{0}/actions/cascadedelete
+Object,a,,,y,,vobjects/a
+Object,b,,,y,,vobjects/b
+Document,,,,y,,objects/documents/batch
+Document,,,,,,objects/documents/{0}
+Document,y,1,0,,,objects/documents/{0}/versions/1/0
+Document,y,0,1,,,objects/documents/{0}/versions/0/1
+Binder,,2,1,,,objects/binders/{0}/versions/2/1
+Binder,,1,2,,,objects/binders/{0}/versions/1/2

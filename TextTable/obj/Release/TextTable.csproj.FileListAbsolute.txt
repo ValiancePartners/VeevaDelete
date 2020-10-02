@@ -1,0 +1,8 @@
+C:\dev\VeevaDelete\TextTable\bin\Release\TextTable.dll
+C:\dev\VeevaDelete\TextTable\bin\Release\TextTable.pdb
+C:\dev\VeevaDelete\TextTable\bin\Release\MigrationUtils.dll
+C:\dev\VeevaDelete\TextTable\obj\Release\TextTable.csproj.CoreCompileInputs.cache
+C:\dev\VeevaDelete\TextTable\obj\Release\TextTable.csproj.CopyComplete
+C:\dev\VeevaDelete\TextTable\obj\Release\TextTable.dll
+C:\dev\VeevaDelete\TextTable\obj\Release\TextTable.pdb
+C:\Dev\VeevaDelete\TextTable\obj\Release\TextTable.csprojResolveAssemblyReference.cache

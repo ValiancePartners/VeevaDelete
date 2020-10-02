@@ -1,0 +1,17 @@
+C:\dev\VeevaDelete\VeevaDelete\bin\Release\VeevaDelete.exe.config
+C:\dev\VeevaDelete\VeevaDelete\bin\Release\VeevaDelete.exe
+C:\dev\VeevaDelete\VeevaDelete\bin\Release\VeevaDelete.pdb
+C:\dev\VeevaDelete\VeevaDelete\bin\Release\MigrationUtils.dll
+C:\dev\VeevaDelete\VeevaDelete\bin\Release\TextTable.dll
+C:\dev\VeevaDelete\VeevaDelete\bin\Release\VeevaDeleteLib.dll
+C:\dev\VeevaDelete\VeevaDelete\bin\Release\TextTable.pdb
+C:\dev\VeevaDelete\VeevaDelete\bin\Release\VeevaDeleteLib.pdb
+C:\dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.AboutBox.resources
+C:\dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.Properties.Resources.resources
+C:\dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.VeevaDelete.resources
+C:\dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.csproj.GenerateResource.cache
+C:\dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.csproj.CoreCompileInputs.cache
+C:\dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.csproj.CopyComplete
+C:\dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.exe
+C:\dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.pdb
+C:\Dev\VeevaDelete\VeevaDelete\obj\x86\Release\VeevaDelete.csprojResolveAssemblyReference.cache

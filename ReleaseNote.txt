@@ -1,0 +1,5 @@
+Release of Veeva Delete Tool version 1.0.
+Delete documents, binders ​or objects listed in a VQL query, a comma separated values file, an Excel sheet or an Access table.
+This can be useful for unwinding migrations to Veeva between migration test runs.
+Requires minimum .Net 4 client profile and ​​32 bit Access Database Engine 2010.
+See user guide at Veeva Delete Tool User Guide.pdf​, installation​​ from \\valiance2\vp\Veeva Delete\software

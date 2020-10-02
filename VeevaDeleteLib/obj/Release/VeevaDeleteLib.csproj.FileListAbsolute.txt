@@ -1,0 +1,10 @@
+C:\dev\VeevaDelete\VeevaDeleteLib\bin\Release\VeevaDeleteLib.dll
+C:\dev\VeevaDelete\VeevaDeleteLib\bin\Release\VeevaDeleteLib.pdb
+C:\dev\VeevaDelete\VeevaDeleteLib\bin\Release\MigrationUtils.dll
+C:\dev\VeevaDelete\VeevaDeleteLib\bin\Release\TextTable.dll
+C:\dev\VeevaDelete\VeevaDeleteLib\bin\Release\TextTable.pdb
+C:\dev\VeevaDelete\VeevaDeleteLib\obj\Release\VeevaDeleteLib.csproj.CoreCompileInputs.cache
+C:\dev\VeevaDelete\VeevaDeleteLib\obj\Release\VeevaDeleteLib.csproj.CopyComplete
+C:\dev\VeevaDelete\VeevaDeleteLib\obj\Release\VeevaDeleteLib.dll
+C:\dev\VeevaDelete\VeevaDeleteLib\obj\Release\VeevaDeleteLib.pdb
+C:\Dev\VeevaDelete\VeevaDeleteLib\obj\Release\VeevaDeleteLib.csprojResolveAssemblyReference.cache

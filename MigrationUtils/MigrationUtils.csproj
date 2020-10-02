@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83004B9F-8709-4833-AAC3-1F7A6B37390F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>MigrationUtils</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MigrationUtils</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <!-- MP, 09/16/2019, Mantis 0001817, Support Vault API Client ID, update .Net target version-->
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <!--<TargetFrameworkVersion>v4.0</TargetFrameworkVersion>-->
+    <!-- end changes by MP on 09/16/2019-->
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <!-- MP, 03/14/2019, Mantis 0001668, Vault to Vault Binders-->
+    <Reference Include="System.Windows.Forms" />
+    <!-- end changes by MP on 03/14/2019-->
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <!-- MP, 03/14/2019, Mantis 0001668, Vault to Vault Binders-->
+    <Reference Include="System.Xml.Linq" />
+    <!-- end changes by MP on 03/14/2019-->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BatchXMLUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheckSum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConnXMLParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CryptoUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CustomExprsXMLUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DbSchemaXMLUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InterimTypeXMLParser.cs" />
+    <Compile Include="LivelinkXMLUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MappingRulesXMLUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <!-- MP, 03/14/2019, Mantis 0001668, Vault to Vault Binders-->
+    <Compile Include="RestUtility\Api\ConnectionParameters.cs" />
+    <!-- MP, 31/10/2019, Mantis 0001843, Tidy up Vault API query exception handling class file name--> 
+    <!--<Compile Include="RestUtility\Api\DeniedRestApiRequestException.cs" />-->
+    <!-- end changes by MP on 31/10/2019 -->
+    <!-- MP, 31/10/2019, Mantis 0001843, Tidy up Vault API query exception handling -->
+    <!--<Compile Include="RestUtility\Api\DeniedRestApiSessionException.cs" />-->
+    <!-- end changes by MP on 31/10/2019 -->
+    <Compile Include="RestUtility\Api\IRestConnection.cs" />
+    <Compile Include="RestUtility\Api\ItemSourceException.cs" />
+    <Compile Include="RestUtility\Api\LimitEventArgs.cs" />
+    <!--MP, 10/23/2019, Mantis 0001835, Add timeout handling -->
+    <Compile Include="RestUtility\Api\SlowRestApiResponseException.cs" />
+    <!--end changes by MP on 10/23/2019-->
+    <Compile Include="RestUtility\Api\RestApiContractException.cs" />
+    <Compile Include="RestUtility\Api\RestApiException.cs" />
+    <Compile Include="RestUtility\Api\ThrottledConnection.cs" />
+    <Compile Include="RestUtility\Api\ThrottleEventArgs.cs" />
+    <!--MP, 10/23/2019, Mantis 0001835, Add timeout handling -->
+    <Compile Include="RestUtility\Api\TimeoutEventArgs.cs" />
+    <!--end changes by MP on 10/23/2019-->
+    <Compile Include="RestUtility\Api\UnexpectedResponseRestApiException.cs" />
+    <Compile Include="RestUtility\Api\UnsupportedRequestRestApiContractException.cs" />
+    <Compile Include="RestUtility\VeevaVaultWeb\ConnectionUtility.cs" />
+    <!-- MP, 31/10/2019, Mantis 0001843, Tidy up Vault API query exception handling -->
+    <Compile Include="RestUtility\VeevaVaultXml\SerializationHelper.cs" />
+    <!-- end changes by MP on 31/10/2019 -->
+    <!-- MP, 31/10/2019, Mantis 0001843, Tidy up Vault API query exception handling class file name-->
+    <Compile Include="RestUtility\VeevaVaultXml\VaultApiException.cs" />
+    <!-- end changes by MP on 31/10/2019 -->
+    <Compile Include="RestUtility\VeevaVaultXml\VaultSymbols.cs" />
+    <Compile Include="RestUtility\VeevaVaultXml\VaultXmlHelper.cs" />
+    <!-- end changes by MP on 03/14/2019-->
+    <Compile Include="SpecCharsXMLUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TRUMigrateException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValidateUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XMLUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
